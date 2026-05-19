@@ -1,6 +1,6 @@
 # maimai.js
 
-🔥 **maimai.js** 是一个将广受欢迎的 Python 库 [maimai.py](https://github.com/TrueRou/maimai.py) **完全移植为 JavaScript/TypeScript 的同构库**。它同样可以用来轻松实现 maimai DX 查分工具，获取玩家数据、谱面数据或分数。
+**maimai.js** 是一个将 Python 库 [maimai.py](https://github.com/TrueRou/maimai.py) **完全移植为 JavaScript/TypeScript 的同构库**。它同样可以用来轻松实现 maimai DX 查分工具，获取玩家数据、谱面数据或分数。
 
 ## 特性
 
@@ -28,7 +28,7 @@ npm install maimai.js
 | Wechat (微信公众号)| `WechatProvider` | 🟢 全部完成 | - |
 | Yuzu | `YuzuProvider` | 🟢 全部完成 | 提供别名词典支持 |
 | Local | `LocalProvider` | 🟢 全部完成 | 读取本地附属文件数据 |
-| Arcade (街机 FFI)| `ArcadeProvider` | 🔴 拒绝移植 | 依赖闭源的私有打包组件 `maimai_ffi` |
+| Arcade (街机 FFI)| `ArcadeProvider` | 🔴 未进行移植 | 依赖闭源的私有打包组件 `maimai_ffi` |
 
 ## 快速使用
 
